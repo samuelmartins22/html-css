@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+   background-color: antiquewhite; 
+   font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(5, 5, 153);
+}
+
+h2 {
+    color: rgb(91, 91, 252);
+}
+
+.portugal {
+    color: rgb(154, 8, 8);
+    background-color: rgb(90, 167, 12);
+}
+
+.brasil {
+    color: rgb(83, 158, 8);
+    background-color: yellow;
+}

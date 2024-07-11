@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        h1 {
+            color: #030851;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+            }
+
+            p#canetinha {
+                text-align: center;
+            }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(199, 199, 199);
+            margin: 0px;
+        }
+        header {
+            background-color: #b7dbfa;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #030851;
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #b7dbfa;;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: rgb(203, 203, 203);
+            padding: 5px;
+            border-radius: 20px;
+        }
+
+        article > aside {
+            background-color: #bcb9b9;
+            border-radius: 20px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 100px;
+            background-color: aliceblue;
+            border-radius: 75px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Meu site</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    </header>
+    <main>
+    <section id="assuntos">
+
+    </section>
+    <section id="Noticias">
+     <article>
+       <h2>Notícias do BR</h2>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora natus nobis consequatur atque! Consectetur dolorum deleniti ex facilis minima sint fugiat ipsam doloremque odit, rerum ea ad corporis doloribus harum?</p>
+        <aside>
+         <p id="canetinha">Artigo escrito por Caneta Azul</p>
+       </aside>
+     </article>
+    </section>
+    </main>
+    <footer>
+        <p>Desenvolvimento</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
